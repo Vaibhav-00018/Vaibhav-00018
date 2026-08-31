@@ -1,0 +1,71 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#121824"/>
+    </linearGradient>
+
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#70A6FF"/>
+      <stop offset="100%" stop-color="#9D4EDD"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#70A6FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#9D4EDD" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f0ff" stroke-width="0.5" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Card -->
+  <rect width="900" height="220" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2"/>
+
+  <!-- Subtle Cyber Grid -->
+  <rect width="900" height="220" rx="16" fill="url(#grid)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="80" cy="50" r="90" fill="#00F0FF" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="820" cy="170" r="100" fill="#9D4EDD" opacity="0.12" filter="url(#glow)"/>
+
+  <!-- Code Decorator Left -->
+  <text x="50" y="70" font-family="'Fira Code', 'Courier New', monospace" font-size="28" font-weight="700" fill="#00F0FF" opacity="0.35">&lt;dev&gt;</text>
+  <text x="800" y="180" font-family="'Fira Code', 'Courier New', monospace" font-size="28" font-weight="700" fill="#9D4EDD" opacity="0.35">&lt;/dev&gt;</text>
+
+  <!-- Terminal Dot Indicators -->
+  <circle cx="55" cy="35" r="5" fill="#FF5F56" />
+  <circle cx="72" cy="35" r="5" fill="#FFBD2E" />
+  <circle cx="89" cy="35" r="5" fill="#27C93F" />
+
+  <!-- Main Name Title -->
+  <text x="450" y="105" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="900" fill="url(#textGrad)" letter-spacing="2">
+    VAIBHAV RAJ TRIVEDI
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#A0AEC0" letter-spacing="3">
+    COMPUTER SCIENCE &amp; ENGINEERING STUDENT  •  SOFTWARE DEVELOPER
+  </text>
+
+  <!-- Institution Badge Pill -->
+  <g transform="translate(340, 168)">
+    <rect width="220" height="28" rx="14" fill="#00F0FF" fill-opacity="0.1" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="110" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="#00F0FF" letter-spacing="1">
+      🎓 IILM UNIVERSITY
+    </text>
+  </g>
+</svg>

@@ -1,6 +1,8 @@
 <div align="center">
-  <!-- Dynamic Gradient Wave Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:00F2FE,50:4FACFE,100:000000&height=220&section=header&text=Vaibhav%20Raj%20Trivedi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Computer%20Science%20%26%20Engineering%20Student%20%7C%20Developer&descSize=18&descAlignY=68" width="100%" alt="Header Banner" />
+  <!-- Custom Neon SVG Banner (Locally hosted, 100% reliable) -->
+  <a href="https://github.com/Vaibhav-00018">
+    <img src="assets/banner.svg" width="100%" alt="Vaibhav Raj Trivedi - Banner" />
+  </a>
 
   <!-- Animated Typing SVG -->
   <a href="https://github.com/Vaibhav-00018">
@@ -70,20 +72,20 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 ---
 
-### ⚡ Real-Time Coding Streaks & Activity
+### ⚡ Real-Time Streaks & Problem Solving
 
-#### 🟠 LeetCode Real-Time Streak & Problem Solving Card
 <div align="center">
+
+  <!-- LeetCode Dark Mode Questions Solved & Stats Card (No cluttered activity table, sleek dark theme) -->
+  <h4>🟠 LeetCode Real-Time Questions Solved & Ranking</h4>
   <a href="https://leetcode.com/u/vaibhav_r18/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/vaibhav_r18?theme=tokyonight&font=Fira%20Code&ext=activity" alt="Vaibhav's LeetCode Live Streak & Stats" width="85%" />
+    <img src="https://leetcard.jacoblin.cool/vaibhav_r18?theme=dark&font=Fira%20Code" alt="Vaibhav's LeetCode Stats" width="480" />
   </a>
-</div>
 
-<br/>
+  <br/><br/>
 
-#### 🟢 GitHub Real-Time Streak & Contribution Overview
-<div align="center">
   <!-- GitHub Streak Stats -->
+  <h4>🟢 GitHub Live Contribution Streak</h4>
   <a href="https://github.com/Vaibhav-00018">
     <img src="https://streak-stats.demolab.com/?user=Vaibhav-00018&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117&ring=00F0FF&fire=FF4500&currStreakNum=00F0FF&sideNums=E0E0E0&currStreakLabel=00F0FF" alt="GitHub Streak Stats" width="85%" />
   </a>
@@ -105,6 +107,7 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
       </td>
     </tr>
   </table>
+
 </div>
 
 ---
@@ -190,11 +193,4 @@ Hobbies & Interests: Algorithmic puzzles, Tech innovations, Exploring modern dev
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Tech Quote" />
-</div>
-
-<br/>
-
-<!-- Footer Decorative Wave Banner -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0:000000,50:4FACFE,100:00F2FE&height=120&section=footer" width="100%" alt="Footer Banner" />
 </div>
